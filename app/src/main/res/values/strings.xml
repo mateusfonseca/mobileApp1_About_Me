@@ -1,0 +1,58 @@
+<resources>
+    <!-- General section -->
+    <string name="app_name">About Me</string>
+    <string name="home">Home</string>
+    <string name="education">Education</string>
+    <string name="skills">Skills</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="achievements">Achievements</string>
+    <string name="exit">Exit</string>
+
+    <!-- Details sections -->
+    <string name="my_name">Mateus Fonseca Campos</string>
+    <string name="my_email">24088@student.dorset-college.ie</string>
+    <string name="introduction">Hi there! My name is Mateus, I am a 27-year-old Brazilian developer and this is my first Android app. Go ahead, tap the buttons below to learn a bit more about me!</string>
+
+    <!-- Education section -->
+    <string name="bachelors_title">Bachelors Degree (NFQ Level 7)</string>
+    <string name="bachelors_description">Currently pursuing a undergraduate degree in Computer Science from Dorset College, Dublin, Ireland.</string>
+    <string name="technicians_title">Technicians Degree (NFQ Level 6)</string>
+    <string name="technicians_description">Certified Electronics Technician from Colégio São Miguel, Passa Quatro, MG, Brazil.</string>
+
+    <!-- Skills section -->
+    <string name="oop_title">Object-Oriented Programming</string>
+    <string name="oop_description">Knowledge in OOP languages such as Python, C#, C++, Java and Kotlin.</string>
+    <string name="web_dev_title">Web Development</string>
+    <string name="web_dev_description">Knowledge in languages such as HTML, CSS and JavaScript, as well as back-end technologies as MySQL and Node.js.</string>
+    <string name="mobile_dev_title">Mobile Development</string>
+    <string name="mobile_dev_description">Knowledge in Android development and Android Studio.</string>
+    <string name="languages_title">Languages</string>
+    <string name="languages_description">I speak brazilian portuguese (native) and english, both fluently.</string>
+
+    <!-- Hobbies section -->
+    <string name="music_title">Music</string>
+    <string name="music_description">Listening to music is one of my main hobbies. I am a big fan of rock and metal, especially if it is progressive. Some of my favorite artists include Dream Theater, Opeth, Symphony X, Angra and many others.</string>
+    <string name="tv_and_cinema_title">TV and Cinema</string>
+    <string name="tv_and_cinema_description">I also enjoy watching movies and TV series on my free time. As a fan of sci-fi and fantasy, I love the likes of Star Wars and The Lord of The Rings. I am also really into animes.</string>
+    <string name="video_games_title">Video Games</string>
+    <string name="video_games_description">A childhood hobby, video games have always been part of my life. From Mega Man and Metroid to Final Fantasy and Heroes of Might and Magic, I have spent hours on them. Especially RPGs.</string>
+    <string name="sports_title">Sports</string>
+    <string name="sports_description">Massive football fan. Vasco da Gama supporter and strong Chelsea sympathizer, so to speak, I have been following the beautiful game for my whole life.</string>
+    <string name="books_title">Books</string>
+    <string name="books_description">Lovecraft, Tolkien and William Gibson amongst my favorites.</string>
+
+    <!-- Achievements section -->
+<!--    <string name="music_title">Music</string>-->
+<!--    <string name="music_description">Listening to music is one of my main hobbies. I am a big fan of rock and metal, especially if it is progressive. Some of my favorite artists include Dream Theater, Opeth, Symphony X, Angra and many others.</string>-->
+<!--    <string name="tv_and_cinema_title">TV and Cinema</string>-->
+<!--    <string name="tv_and_cinema_description">I also enjoy watching movies and TV series on my free time. As a fan of sci-fi and fantasy, I love the likes of Star Wars and The Lord of The Rings. I am also really into animes.</string>-->
+<!--    <string name="video_games_title">Video Games</string>-->
+<!--    <string name="video_games_description">A childhood hobby, video games have always been part of my life. From Mega Man and Metroid to Final Fantasy and Heroes of Might and Magic, I have spent hours on them. Especially RPGs.</string>-->
+<!--    <string name="sports_title">Sports</string>-->
+<!--    <string name="sports_description">Massive football fan. Vasco da Gama supporter and strong Chelsea sympathizer, so to speak, I have been following the beautiful game for my whole life.</string>-->
+<!--    <string name="books_title">Books</string>-->
+<!--    <string name="books_description">Lovecraft, Tolkien and William Gibson amongst my favorites.</string>-->
+
+    <!-- Copyright section -->
+    <string name="copyright">© Copyright Mateus Campos 2022\nBuilt with Android Studio</string>
+</resources>

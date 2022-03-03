@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/foreground"
+    android:orientation="horizontal">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/previous_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        app:cornerRadius="0dp"
+        app:iconGravity="textTop"
+        app:iconTint="@color/onForeground"
+        tools:icon="@drawable/ic_baseline_home"
+        tools:text="Button" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/home_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:drawableTint="@color/onForeground"
+        android:textAllCaps="false"
+        app:cornerRadius="0dp"
+        android:insetBottom="0dp"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:insetTop="0dp"
+        app:iconGravity="textTop"
+        app:iconPadding="0dp"
+        app:icon="@drawable/ic_baseline_home" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+        app:cornerRadius="0dp"
+        app:iconGravity="textTop"
+        app:iconTint="@color/onForeground"
+        tools:icon="@drawable/ic_baseline_home"
+        tools:text="Achievements" />
+
+</LinearLayout>

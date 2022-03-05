@@ -19,7 +19,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="20dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -32,18 +33,19 @@
                     android:layout_height="200dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="5dp"
-                    app:cardBackgroundColor="@color/foreground"
                     app:cardCornerRadius="100dp"
                     app:cardElevation="10dp"
-                    app:strokeColor="@color/foreground"
+                    app:strokeColor="@color/secondaryColor"
                     app:strokeWidth="2dp">
 
                     <ImageView
                         android:id="@+id/imageView"
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
+                        android:importantForAccessibility="no"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/profile_picture" />
+
                 </com.google.android.material.card.MaterialCardView>
 
                 <TextView
@@ -83,55 +85,32 @@
                 android:orientation="vertical"
                 android:padding="8dp">
 
-                <com.google.android.material.button.MaterialButton
+                <include
                     android:id="@+id/education_button"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:text="@string/education" />
+                    layout="@layout/button_floating" />
 
-                <com.google.android.material.button.MaterialButton
+                <include
                     android:id="@+id/skills_button"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:text="@string/skills" />
+                    layout="@layout/button_floating" />
 
-                <com.google.android.material.button.MaterialButton
+                <include
                     android:id="@+id/hobbies_button"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:text="@string/hobbies" />
+                    layout="@layout/button_floating" />
 
-                <com.google.android.material.button.MaterialButton
+                <include
                     android:id="@+id/achievements_button"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="2dp"
-                    android:text="@string/achievements" />
+                    layout="@layout/button_floating" />
 
             </LinearLayout>
 
-            <Button
+            <include
                 android:id="@+id/exit_button"
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text="@string/exit" />
+                layout="@layout/button_floating" />
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|bottom"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="20dp"
-                android:text="@string/copyright"
-                android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+            <include layout="@layout/text_copyright" />
 
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>

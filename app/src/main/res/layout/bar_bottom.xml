@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom"
-    android:background="@color/foreground"
+    android:background="@color/primaryColor"
     android:orientation="horizontal">
 
     <com.google.android.material.button.MaterialButton
@@ -18,7 +18,7 @@
         android:textAllCaps="false"
         app:cornerRadius="0dp"
         app:iconGravity="textTop"
-        app:iconTint="@color/onForeground"
+        app:iconTint="@color/primaryTextColor"
         tools:icon="@drawable/ic_baseline_home"
         tools:text="Button" />
 
@@ -28,16 +28,16 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:drawableTint="@color/onForeground"
+        android:drawableTint="@color/primaryTextColor"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
         android:textAllCaps="false"
         app:cornerRadius="0dp"
-        android:insetBottom="0dp"
-        android:insetLeft="0dp"
-        android:insetRight="0dp"
-        android:insetTop="0dp"
         app:iconGravity="textTop"
         app:iconPadding="0dp"
-        app:icon="@drawable/ic_baseline_home" />
+        tools:icon="@drawable/ic_baseline_home" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/next_button"
@@ -48,7 +48,7 @@
         android:textAllCaps="false"
         app:cornerRadius="0dp"
         app:iconGravity="textTop"
-        app:iconTint="@color/onForeground"
+        app:iconTint="@color/primaryTextColor"
         tools:icon="@drawable/ic_baseline_home"
         tools:text="Achievements" />
 

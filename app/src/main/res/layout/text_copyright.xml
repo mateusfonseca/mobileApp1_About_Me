@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/copyright"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center|bottom"
-    android:layout_marginTop="24dp"
-    android:textSize="12sp"
     android:layout_marginBottom="8dp"
-    android:text="@string/copyright"
-    android:textAlignment="center"
-    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2" />
+    android:orientation="vertical">
+
+    <include layout="@layout/content_separator" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/copyright"
+        android:textColor="@color/darkGray"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -31,15 +31,15 @@
 
     <!-- Hobbies section -->
     <string name="music_title">Music</string>
-    <string name="music_description">Listening to music is one of my main hobbies. I am a big fan of rock and metal, especially if it is progressive. Some of my favorite artists include Dream Theater, Opeth, Symphony X, Angra and many others.</string>
+    <string name="music_description">Listening to music is one of my favorite things in life. I am a big fan of rock and metal, especially progressive. Some of my favorite artists include Dream Theater, Opeth, Symphony X, Angra and many others.</string>
     <string name="tv_and_cinema_title">TV and Cinema</string>
-    <string name="tv_and_cinema_description">I also enjoy watching movies and TV series on my free time. As a fan of sci-fi and fantasy, I love the likes of Star Wars and The Lord of The Rings. I am also really into animes.</string>
+    <string name="tv_and_cinema_description">I enjoy watching movies and TV series on my free time. As a fan of sci-fi and fantasy, I love the likes of Star Wars and The Lord of The Rings. I am also really into cartoons and animes.</string>
     <string name="video_games_title">Video Games</string>
-    <string name="video_games_description">A childhood hobby, video games have always been part of my life. From Mega Man and Metroid to Final Fantasy and Heroes of Might and Magic, I have spent hours on them. Especially RPGs.</string>
+    <string name="video_games_description">A childhood hobby, video games have always been part of my life. From Mega Man and Metroid to Final Fantasy and Heroes of Might and Magic, I have spent hours on them, especially the RPGs.</string>
     <string name="sports_title">Sports</string>
     <string name="sports_description">Massive football fan. Vasco da Gama supporter and strong Chelsea sympathizer, so to speak, I have been following the beautiful game for my whole life.</string>
     <string name="books_title">Books</string>
-    <string name="books_description">Lovecraft, Tolkien and William Gibson amongst my favorites.</string>
+    <string name="books_description">Not exactly a bookworm, but I certainly enjoy my occasional read. Lovecraft, Tolkien and William Gibson amongst my favorites.</string>
 
     <!-- Achievements section -->
     <string name="oops_title">Oops!…</string>
